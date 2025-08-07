@@ -1,4 +1,4 @@
-## Esse é o meu primeiro teste Java rodado com sucesso no terminal. 
+## ☕️ Esse é o meu primeiro teste Java rodado com sucesso no terminal. 
 
 ## 📄 Sobre o Código
 
@@ -10,4 +10,4 @@ O programa realiza as seguintes ações:
 - Apresenta um número com diferentes formatações decimais, incluindo o uso do `Locale.US`.
 
 
-Resumindo, são um conjunto de variáveis e seus elementos tudo dentro de um só código pra entender melhor e de um jeito mais rápido todos as bases da linguagem.
+📌Resumindo: São um conjunto de variáveis e seus elementos tudo dentro de um só código pra entender melhor e de um jeito mais rápido todos as bases da linguagem.
