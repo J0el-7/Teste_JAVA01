@@ -6,7 +6,7 @@ public class Main {
         String product2 = "Office Desk";
 
         byte age = 30;
-        int code = 5290;
+        int code = 5291;
         char gender = 'F';
 
         double price1 = 2100.0;
