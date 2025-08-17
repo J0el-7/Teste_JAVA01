@@ -1,27 +1,30 @@
-import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String product1 = "Computer";
-        String product2 = "Office Desk";
 
-        byte age = 30;
-        int code = 5290;
-        char gender = 'F';
+    Scanner sc = new Scanner(System.in);
+    int codigo = sc.nextInt();
+    int quantidade = sc.nextInt();
 
-        double price1 = 2100.0;
-        double price2 = 650.50;
-        double measure = 53.234567;
+    double total;
+    if (codigo == 1) {
+        total = quantidade * 4.00;
+    }
+    else if (codigo == 2) {
+        total = quantidade * 4.50;
+    }
+    else if (codigo == 3) {
+        total = quantidade * 5.00;
+    }
+    else if (codigo == 4) {
+        total = quantidade * 2.00;
+    }
+    else {
+        total = quantidade * 1.50;
+    }
+    System.out.printf("O total é: R$ %.2f%n", total);
 
-        System.out.println("Products:");
-        System.out.printf("%s, which price is $ %.2f%n", product1, price1);
-        System.out.printf("%s, which price is $ %.2f%n",product2 ,price2);
-        System.out.println();
-        System.out.printf("Record: %d years old, code %d and gender: %c%n", age, code, gender);
-        System.out.println();
-        System.out.printf("Measure with eight decimal places: %.8f%n", measure);
-        System.out.printf("Rounded (three decimal places: %.3f%n", measure);
-        Locale.setDefault(Locale.US);
-        System.out.printf("US decimal point: %.3f%n", measure);
+    sc.close();
     }
 }
